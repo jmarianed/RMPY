@@ -37,7 +37,7 @@ class LaceRing(rigSingleJoint.RigSingleJoint):
 
         self.lace_rig.create_point_base(*args, **kwargs)
         # controls_rig = singleJointRig.SingleJointRig(rig_system=self.lace_rig.rig_system)
-        self.lace_rig.rename_as_skinned_joints(nub=False)
+        # self.lace_rig.rename_as_skinned_joints(nub=False)
         for each in self.lace_rig.clusters:
             print(each)
         if r_l_order_change:
